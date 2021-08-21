@@ -1,6 +1,7 @@
 {
   "name": "vite-project",
   "version": "0.0.0",
+  "private": true, 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,7 +10,7 @@
     "build-storybook": "build-storybook",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
     "format": "prettier .  --write",
-    "init-git-hooks": "npx husky install && npx husky add .husky/pre-commit \"npx --no-install lint-staged\""
+    "post-install": "husky install"
   },
   "dependencies": {
     "tailwindcss": "^2.2.7",

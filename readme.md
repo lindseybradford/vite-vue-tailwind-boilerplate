@@ -1,3 +1,8 @@
+# Setup
+
+1. `yarn install`
+2. `yarn post-install`
+
 # Tech
 
 - [x] Vite
@@ -6,5 +11,5 @@
 - [ ] Typescript
 - [ ] Yarn 3
 - [x] ESlint, Prettier
-- [ ] Husky
+- [x] Husky
 - [ ] Jest
