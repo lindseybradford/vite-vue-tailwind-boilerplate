@@ -13,3 +13,8 @@
 - [x] ESlint, Prettier
 - [x] Husky
 - [ ] Jest
+- [ ] Vue Testing Library
+
+
+### Notes
+- [Vue specific unit + component testing considerations](https://vuejs.org/v2/guide/testing.html)
